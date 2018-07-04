@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DynamicTitleViewSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dynamic Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vxM-L1-I60">
+                                <rect key="frame" x="135" y="38" width="104.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2oL-Ni-AaP">
+                                <rect key="frame" x="40" y="89" width="295" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="f26-Mt-WGA"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iMP-7D-2P3">
+                                <rect key="frame" x="40" y="169" width="295" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="deC-vz-zSw"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="26U-ca-LJy">
+                                <rect key="frame" x="40" y="249" width="295" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="qJi-sr-nE6"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bgx-Ca-Rxo">
+                                <rect key="frame" x="40" y="329" width="295" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="N88-bj-AGp"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uLl-v6-Jxr">
+                                <rect key="frame" x="40" y="409" width="295" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="sBY-Zb-V4w"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LjM-1x-yyD">
+                                <rect key="frame" x="40" y="489" width="295" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="l1Q-ub-rGL"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="iMP-7D-2P3" firstAttribute="trailing" secondItem="2oL-Ni-AaP" secondAttribute="trailing" id="2S9-V9-eX4"/>
+                            <constraint firstItem="2oL-Ni-AaP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="3Dc-5N-TWp"/>
+                            <constraint firstItem="26U-ca-LJy" firstAttribute="top" secondItem="iMP-7D-2P3" secondAttribute="bottom" constant="40" id="3gO-tw-GVO"/>
+                            <constraint firstItem="LjM-1x-yyD" firstAttribute="leading" secondItem="uLl-v6-Jxr" secondAttribute="leading" id="9b4-OR-JIO"/>
+                            <constraint firstItem="bgx-Ca-Rxo" firstAttribute="trailing" secondItem="26U-ca-LJy" secondAttribute="trailing" id="BLs-lr-qPf"/>
+                            <constraint firstItem="iMP-7D-2P3" firstAttribute="leading" secondItem="2oL-Ni-AaP" secondAttribute="leading" id="GQ7-sz-Ear"/>
+                            <constraint firstItem="bgx-Ca-Rxo" firstAttribute="top" secondItem="26U-ca-LJy" secondAttribute="bottom" constant="40" id="HPl-tO-EB9"/>
+                            <constraint firstItem="26U-ca-LJy" firstAttribute="leading" secondItem="iMP-7D-2P3" secondAttribute="leading" id="MZS-tU-xC4"/>
+                            <constraint firstItem="vxM-L1-I60" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="18" id="PAa-4z-ZeY"/>
+                            <constraint firstItem="iMP-7D-2P3" firstAttribute="top" secondItem="2oL-Ni-AaP" secondAttribute="bottom" constant="40" id="PMo-y4-s4v"/>
+                            <constraint firstItem="vxM-L1-I60" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Q6d-gS-Nza"/>
+                            <constraint firstItem="26U-ca-LJy" firstAttribute="trailing" secondItem="iMP-7D-2P3" secondAttribute="trailing" id="a3l-LW-tga"/>
+                            <constraint firstItem="bgx-Ca-Rxo" firstAttribute="leading" secondItem="26U-ca-LJy" secondAttribute="leading" id="apA-n2-oQF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2oL-Ni-AaP" secondAttribute="trailing" constant="40" id="eEi-0i-G9K"/>
+                            <constraint firstItem="2oL-Ni-AaP" firstAttribute="top" secondItem="vxM-L1-I60" secondAttribute="bottom" constant="30" id="hmZ-lp-Q0J"/>
+                            <constraint firstItem="LjM-1x-yyD" firstAttribute="top" secondItem="uLl-v6-Jxr" secondAttribute="bottom" constant="40" id="ltZ-q0-M9x"/>
+                            <constraint firstItem="uLl-v6-Jxr" firstAttribute="trailing" secondItem="bgx-Ca-Rxo" secondAttribute="trailing" id="rQo-i1-wMb"/>
+                            <constraint firstItem="uLl-v6-Jxr" firstAttribute="top" secondItem="bgx-Ca-Rxo" secondAttribute="bottom" constant="40" id="sXS-cT-0ow"/>
+                            <constraint firstItem="LjM-1x-yyD" firstAttribute="trailing" secondItem="uLl-v6-Jxr" secondAttribute="trailing" id="u3a-rp-Xcs"/>
+                            <constraint firstItem="uLl-v6-Jxr" firstAttribute="leading" secondItem="bgx-Ca-Rxo" secondAttribute="leading" id="zAb-4D-7jt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Dg4-JE-t8l" appends="YES" id="wGZ-cT-wGC"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="addressArea" destination="LjM-1x-yyD" id="4j2-nq-gEc"/>
+                        <outlet property="contactArea" destination="26U-ca-LJy" id="3o6-Lm-g4Z"/>
+                        <outlet property="firstNameArea" destination="2oL-Ni-AaP" id="Etv-vw-2s2"/>
+                        <outlet property="lastNameArea" destination="iMP-7D-2P3" id="Lba-y4-Lme"/>
+                        <outlet property="memoArea" destination="uLl-v6-Jxr" id="0Mx-43-ehM"/>
+                        <outlet property="relationshipArea" destination="bgx-Ca-Rxo" id="gUr-AQ-ZIi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Dg4-JE-t8l">
+                    <connections>
+                        <action selector="viewDidTapped:" destination="BYZ-38-t0r" id="vhw-K2-mAA"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+</document>
