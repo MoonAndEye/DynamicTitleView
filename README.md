@@ -1,6 +1,6 @@
 # DynamicTitleView
 
-# Dynamic Title Effect to UITextField
+### Dynamic Title Effect to UITextField
 
 Version 1.0
 
